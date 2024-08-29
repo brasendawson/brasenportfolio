@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrasenDawson</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" href="./assets/sticker.png" type="image/png">
+    <meta property="og:title" content="Brasen's Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="BrasenDawson">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">BrasenDawson</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">BrasenDawson</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Brasen Profile picture.jpg" alt="Brasen Dawson Profile Picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Brasen <br>Ethan Kwame Dawson</h1>
+        <p class="section__text__p2">a Student and an aspiring Software Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Brasen Ethan Kwame Dawson - Resume.pdf')"
+          >
+            View Résumé
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <a href="//www.linkedin.com/in/brasen-ethan-kwame-dawson-2772b8286/" target="_blank">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+            />
+          </a>          
+          <a href="//github.com/brasendawson" target="_blank">
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+            />
+          </a> 
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <br>
+      <br>
+      <br>
+      <br>
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.JPG"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>6+ months <br />C++ Programming</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Ghana Communication Technology University<br />Information Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>  
+                Hello, my name is Brasen Ethan Kwame Dawson. I’m a level 200 Information Technology major at Ghana Communication Technology University, passionate about transforming lives through software development. With a solid foundation in programming and data analysis, I am committed to creating innovative software solutions to address complex challenges. I am eager to deepen my expertise, explore the latest trends in software development, and collaborate with like-minded professionals on groundbreaking projects as I pursue my goal of becoming a skilled software developer.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <br>
+      <br>
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers"> 
+          <div class="details-container">
+            <h2 class="experience-sub-title">Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML & CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="experience">
+      <br>
+      <br>
+      <h1 class="title">My Favourtite Song</h1>
+      <div class="experience-details-container">
+        <div class="about-containers"> 
+          <div class="details-container">
+            <h2 class="experience-sub-title">Audio</h2>
+            <div class="article-container">
+              <div class="media">
+                <audio controls>
+                    <source src="./assets/Blanco - Londis.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+    </section>
+    <section id="experience">
+      <br>
+      <br>
+      <h1 class="title">My Favourtite Edit</h1>
+      <div class="experience-details-container">
+        <div class="about-containers"> 
+          <div class="details-container">
+            <h2 class="experience-sub-title">Video</h2>
+            <div class="article-container">
+              <div class="media">
+                <video controls class="small-video">
+                    <source src="./assets/vzsce edit.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <br>
+      <br>
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="brasendawson@gmail.com">brasendawson@gmail.com</a></p>
+        </div>
+      
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Brasen Ethan Kwame Dawson. All Rights Reserved.</p>
+      <br>
+      <br>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
